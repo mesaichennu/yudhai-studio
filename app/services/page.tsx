@@ -36,27 +36,27 @@ const services = [
 const pricingTiers = [
   {
     name: "Starter",
-    price: "$499",
+    price: "₹3,999",
     period: "per project",
     description: "Perfect for small projects and testing the waters with AI visuals.",
     features: [
-      "5 AI-generated images",
-      "2 revision rounds",
+      "2 AI-generated images",
+      "2 AI-generated videos (15s)",
       "Standard resolution",
-      "5-day delivery",
-      "Email support",
+      "2-day delivery",
+      "Basic support",
     ],
     highlighted: false,
   },
   {
     name: "Professional",
-    price: "$1,499",
+    price: "₹6,999",
     period: "per project",
     description: "Ideal for growing brands needing consistent, high-quality visual content.",
     features: [
-      "20 AI-generated images",
-      "1 AI-generated video (30s)",
-      "Unlimited revisions",
+      "4 AI-generated images",
+      "4 AI-generated videos (30s)",
+      "2 revision rounds",
       "4K resolution",
       "3-day delivery",
       "Priority support",
@@ -66,20 +66,34 @@ const pricingTiers = [
   },
   {
     name: "Enterprise",
-    price: "Custom",
+    price: "₹9,999",
     period: "monthly retainer",
     description: "Full-service partnership for brands requiring ongoing AI visual production.",
     features: [
-      "Unlimited images",
-      "Unlimited videos",
+      "6 AI-generated images",
+      "6 AI-generated videos (30s)",
       "Dedicated account manager",
-      "Same-day delivery option",
-      "Custom AI model training",
-      "API access",
-      "24/7 support",
+      "Negotiable delivery timelines",
+      "4 revision rounds",
+      "Source files included",
+      "Dedicated support",
     ],
     highlighted: false,
   },
+  {
+    name: "Custom",
+    price: "Custom",
+    period: "contact us",
+    description: "Tailored solutions for unique projects and specific visual needs. Let’s discuss your requirements.",
+    features: [
+      "Fully customized deliverables",
+      "Flexible timelines",
+      "Dedicated creative team",
+      "On-demand revisions",
+      "Direct collaboration with AI specialists",
+    ],
+    highlighted: false,
+  }
 ]
 
 export default function ServicesPage() {
@@ -148,7 +162,7 @@ export default function ServicesPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {pricingTiers.map((tier, index) => (
               <Card
                 key={tier.name}

@@ -9,6 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  
   title: 'YUDHAI Studios | AI Visuals That Feel Real',
   description: 'Premium AI visual studio creating stunning ads, product visuals, social media content, and brand campaigns using cutting-edge AI technology.',
   keywords: ['AI visuals', 'AI ads', 'product visuals', 'AI studio', 'brand campaigns', 'social media content'],
