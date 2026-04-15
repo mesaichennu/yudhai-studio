@@ -9,23 +9,26 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  
+  metadataBase: new URL('https://yudhai-studio.vercel.app'),
+
   title: 'YUDHAI Studios | AI Visuals That Feel Real',
-  description: 'Premium AI visual studio creating stunning ads, product visuals, social media content, and brand campaigns using cutting-edge AI technology.',
-  keywords: ['AI visuals', 'AI ads', 'product visuals', 'AI studio', 'brand campaigns', 'social media content'],
+  description: 'Premium AI visual studio creating stunning ads...',
+
   openGraph: {
     title: 'YUDHAI Studios | AI Visuals That Feel Real',
-    description: 'Premium AI visual studio creating stunning ads, product visuals, social media content, and brand campaigns.',
+    description: 'Premium AI visual studio...',
+    url: '/',
+    siteName: 'YUDHAI Studios',
     images: [
       {
-        url: "/logo.png",
-       
+        url: '/og-image.png', // now works because of metadataBase
+        width: 1200,
+        height: 630,
       },
     ],
-    type: "website",
+    type: 'website',
   },
-}
-
+};
 export default function RootLayout({
   children,
 }: Readonly<{
