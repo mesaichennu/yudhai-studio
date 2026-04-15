@@ -51,7 +51,7 @@ const itemVariants = {
 
 export function ServicesSection() {
   return (
-    <section className="py-32 bg-background">
+    <section className="py-16 bg-background">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">

@@ -157,7 +157,7 @@ export function Hero() {
           style={{ opacity: 0, zIndex: 0 }}
         >
           <source
-            src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_065045_c44942da-53c6-4804-b734-f9e07fc22e08.mp4"
+            src="/hero-bg.mp4"
             type="video/mp4"
           />
         </video>
@@ -230,7 +230,7 @@ export function Hero() {
             <div className="flex flex-col items-start px-8 max-w-7xl w-full mx-auto">
               {/* Headline */}
               <h1
-                className="headline-general-sans font-normal leading-[1.02] select-none"
+                className="headline-ubuntu font-semibold leading-[1.02] select-none"
                 style={{
                   fontSize: "clamp(80px, 14vw, 220px)",
                   letterSpacing: "-0.024em",
