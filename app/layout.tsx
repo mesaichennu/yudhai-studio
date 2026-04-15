@@ -16,7 +16,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'YUDHAI Studios | AI Visuals That Feel Real',
     description: 'Premium AI visual studio creating stunning ads, product visuals, social media content, and brand campaigns.',
-    type: 'website',
+    images: [
+      {
+        url: "https://yudhai-studio.vercel.app/logo.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
   },
 }
 
