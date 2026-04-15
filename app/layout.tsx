@@ -18,9 +18,8 @@ export const metadata: Metadata = {
     description: 'Premium AI visual studio creating stunning ads, product visuals, social media content, and brand campaigns.',
     images: [
       {
-        url: "https://yudhai-studio.vercel.app/logo.png",
-        width: 1200,
-        height: 630,
+        url: "/logo.png",
+       
       },
     ],
     type: "website",
