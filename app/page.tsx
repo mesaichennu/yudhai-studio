@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
-import { BrandMarquee } from "@/components/brand-marquee"
+//import { BrandMarquee } from "@/components/brand-marquee"
 import { MasonryGrid } from "@/components/masonry-grid"
 import { ServicesSection } from "@/components/services-section"
 import { ProcessSection } from "@/components/process-section"
@@ -13,7 +13,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-background">
       <Navbar />
       <Hero />
-      <BrandMarquee />
+      {/* <BrandMarquee /> */}
       <MasonryGrid />
       <ServicesSection />
       <ProcessSection />
